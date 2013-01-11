@@ -1,0 +1,21 @@
+{
+   "browser_action": {
+      "default_icon": "img/icon.png"
+   },
+   "content_scripts": [ {
+      "js": ["js/script.js"],
+      "matches": [ "http://*.renren.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "人人状态清空器",
+   "icons": {
+      "128": "img/icon.png",
+      "16": "img/icon.png",
+      "32": "img/icon.png",
+      "48": "img/icon.png"
+   },
+   "manifest_version": 2,
+   "name": "人人状态清空器",
+   "permissions": [ "tabs" ],
+   "version": "1.0"
+}
