@@ -1,0 +1,4 @@
+RenrenStatusClear
+=================
+
+Renren Status Cleaner
